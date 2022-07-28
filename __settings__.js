@@ -1,6 +1,6 @@
 ASSET_PREFIX = "";
 SCRIPT_PREFIX = "";
-SCENE_PATH = "1486319.json";
+SCENE_PATH = "1486399.json";
 CONTEXT_OPTIONS = {
     'antialias': true,
     'alpha': false,
@@ -8,7 +8,7 @@ CONTEXT_OPTIONS = {
     'preferWebGl2': true,
     'powerPreference': "default"
 };
-SCRIPTS = [ 95430946, 95430941, 95430943, 95430952 ];
+SCRIPTS = [ 95441897, 95441898 ];
 CONFIG_FILENAME = "config.json";
 INPUT_SETTINGS = {
     useKeyboard: true,
@@ -18,4 +18,5 @@ INPUT_SETTINGS = {
 };
 pc.script.legacy = false;
 PRELOAD_MODULES = [
+    {'moduleName' : 'Ammo', 'glueUrl' : 'files/assets/95441896/1/ammo.wasm.js', 'wasmUrl' : 'files/assets/95441891/1/ammo.wasm.wasm', 'fallbackUrl' : 'files/assets/95441892/1/ammo.js', 'preload' : true},
 ];
